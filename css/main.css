@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Josefin+Slab);
+
+
+/*These rules create the basic layout*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("../images/background.png");
+}
+
+body {
+    margin-top: 70px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 500px;
+    width: 600px;
+    padding-right: 300px;
+    padding-left: 100px;
+    background: url("../images/donuts.jpg");
+}
+
+.head { background: url("..images/hands.jpg");
+}
+
+
+
+/*Add rules here for the site navigation*/
+
+nav { height: 60px;
+      background: white;
+      border-bottom: 2px solid #000;
+}
+
+ul {list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family:'Josefin Slab', serif;
+    font-size: 14pt;
+}
+
+li { display: inline;
+    border-right: 1px solid #666;
+}
+
+a { text-decoration: none;
+    padding: 30px;
+    color: dimgray; 
+}
+
+a:hover {
+    color: #790909;
+}
+
+/*These rules format the site content*/
+
+img {
+    margin-top: 50px;
+    height: 500px;
+    width: 900px;
+    border: solid; 
+    border-color: gainsboro;
+   
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    color: gainsboro;
+    line-height: 50px;
+    padding: 50px;
+}
+
+h1{
+    font-size: 100px;
+    color:ghostwhite;
+    border-style: groove color: black;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-weight:700;
+    padding-top:0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    color:gainsboro;
+    padding: 20px;
+    text-transform: lowercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
