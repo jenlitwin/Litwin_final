@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Josefin+Slab);
+
+
+/*These rules create the basic layout*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("../images/background.png");
+}
+
+
+body {
+    margin-top: 70px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 930px;
+    width: 700px;
+    padding-right: 200px;
+    padding-left: 100px;
+    background: url("../images/donuts.jpg");
+}
+
+
+
+/*Add rules here for the site navigation*/
+
+nav { height: 68px;
+      width: 1000px;
+      background: white;
+      border-bottom: 2px solid #000;
+      position: fixed;
+      top: 0px;
+}
+
+ul {list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family:'Josefin Slab', serif;
+    font-size: 14pt;
+}
+
+li { display: inline;
+    border-right: 1px solid #666;
+}
+
+a { text-decoration: none;
+    padding: 30px;
+    color: dimgray; 
+}
+
+a:hover {
+    color: #790909;
+}
+
+/*These rules format the site content*/
+
+img {
+    margin-top: 50px;
+    height: 500px;
+    width: 90%;
+    border: solid; 
+    border-color: gainsboro;
+   }
+
+p {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Josefin Slab', serif;
+    color: gainsboro;
+    line-height: 50px;
+    padding: 80px;
+    padding-left: 0;
+    text-align: center;
+    position: absolute; 
+    top: 500px; 
+    left: 0;
+    width: 100%; 
+    text-shadow: 1px 1px #790909;
+    align-content: center; 
+    }
+
+
+h1{
+    font-size: 100px;
+    color:ghostwhite;
+    border-style: groove color: black;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-weight:700;
+    padding-top:45px; 
+    text-align: center;
+    padding-left: 180px;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 60px;
+    color:gainsboro;
+    padding: 20px;
+    text-transform: lowercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 7px;
+    text-align: center;
+    padding-left: 180px;
+    text-shadow: 1px 1px black;
+}
+
