@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Josefin+Slab);
+
+
+/*These rules create the basic layout*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {width: 1000px;
+    background: url("../images/background.png");
+}
+
+
+body {
+    margin-top: 70px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    
+}
+
+header {
+    height: 500px;
+    width: 1000px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background: url("../images/donuts.jpg");
+    
+}
+
+
+
+/*Add rules here for the site navigation*/
+
+nav { height: 68px;
+      width: 1000px;
+      background: white;
+      border-bottom: 2px solid #000;
+      position: fixed;
+      top: 0px;
+}
+
+ul {list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family:'Josefin Slab', serif;
+    font-size: 14pt;
+}
+
+li { display: inline;
+    border-right: 1px solid #666;
+}
+
+a { text-decoration: none;
+    padding: 30px;
+    color: dimgray; 
+}
+
+a:hover {
+    color: #790909;
+}
+a:visited { 
+    color: coral;
+}
+/*These rules format the site content*/
+
+p { 
+    font-size: 25px;
+    font-family: 'Josefin Slab', serif;
+    color: ghostwhite;
+    line-height: 50px;
+    padding: 0px;
+    text-align: center;
+    top: 500px; 
+    width: 1000px;
+    text-shadow: 2px 1px #790909;
+    }
+
+
+h1{
+    font-size: 100px;
+    color:white;
+    border-style: groove color: black;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-weight:700;
+    padding-top:45px; 
+    text-align: inherit;
+    padding-left: 180px;
+    text-shadow: 2px 2px black;
+     background-color:rgba(192,192,192,0.4);
+}
+
+h2 {
+    font-size: 60px;
+    color:gainsboro;
+    padding: 20px;
+    text-transform: lowercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 7px;
+    text-align: inherit;
+    padding-left: 180px;
+    padding-bottom: 60px;
+    text-shadow: 1px 1px black;
+    background-color:rgba(192,192,192,0.4);
+}
+
+figure {
+
+    font-family: 'Josefin Slab', serif;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+}
+
+figcaption {
+    width:250px;
+    height: 215px;
+    position: relative;
+    display: inline-block;
+}
+.gallery{
+    width:1000px;
+    height:1500px;
+    margin:0px;
+    padding-top:0px;
+    display: inline-block;
+    
+}
+
+.images{
+    width:250px;
+    height:250px;
+    margin:10px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    
+}
+
